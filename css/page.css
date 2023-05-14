@@ -1,0 +1,634 @@
+body
+{
+	font-family: "Montserrat", sans-serif;
+	background-color: #ffffff;
+    background: url(../images/background.png) no-repeat; 
+    background-size: 100%;
+	font-size: 12pt;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../includes/assets/Montserrat-Regular.ttf") format("truetype");
+}
+h1 {
+	font-family: 'Montserrat',sans-serif;
+}
+h2 {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14pt;
+}
+a {
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 400;
+	color: #052083;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;	
+}
+a.small {
+	font-family: 'Montserrat',sans-serif;
+	color: #0c3c63;
+	text-decoration: none;
+	font-size: 12px;
+}
+a.linkButton {
+	display: inline-block;
+	padding: 0.35em 1.2em;
+	border: 0.1em solid #000;
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.15em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+	transition: all 0.2s;
+	background-color: #d6d6d6;
+}
+a.linkButton:hover {
+	background-color: rgb(188, 186, 186);
+}
+@media all and (max-width:30em) 
+{
+	a.linkButton {
+		display: block;
+		margin: 0.4em auto;
+		background-color: #d6d6d6;
+	}
+}
+.legend
+{
+	font-family: Verdana;
+	font-size: 20px;
+	color: #ff6600;
+}
+.fullBox
+{
+	width: 100%;
+	margin-top: 10px;
+	margin: 0 auto;
+	font-family: 'Montserrat',sans-serif;
+}
+.cover
+{
+	float: left;
+	left: 200px;
+	font-family: 'Montserrat',sans-serif;
+	margin-top: 10px;
+	font-size: 10px;
+}
+._header
+{
+ 	height:171px;
+ 	background-image: url("../images/header_1.jpg"); 
+ 	text-align: right;	
+	font: Verdana;
+	font-size: 9px;
+}
+.footer
+{
+	background-image: url("../images/footer.jpg"); 
+	height: 89px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 9px;
+	color: #000000;
+	text-align: right;
+}
+.toLeft {
+	position: absolute;
+	left:0px;
+}
+.toRight {
+	position: absolute;
+	right:0px;
+}
+.c_o_ntentPage {
+	background-image: url("../images/bodybackground.jpg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.c_o_ntentPageNB {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.graphic_navigationbar_style_default 
+{
+    background: transparent;
+    float: none;
+    margin: 0px;
+    opacity: 1.00;
+}
+div {
+    overflow: visible;
+}
+hr {
+	height: 1px;
+	color: rgb(164, 163, 163);
+}
+img {
+    border: none;
+}
+.fullImage
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+.InlineBlock {display: inline; }
+.InlineBlock {display: inline-block; }
+
+/* text classes */
+
+.tinyText {
+    font-size: 5px;
+}
+.normalText
+{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+	text-align: justify;
+	font-weight: 300;
+}
+.normalExcerpt
+{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+	text-align: justify;
+	font-weight: 400;
+}
+.normal
+{
+	font: Verdana;
+	color: #000000;
+	text-align: left;
+}
+.disabledText
+{
+	font: Verdana;
+	color: gray;
+}
+.inverseText
+{
+	font: Verdana;
+	font-size: 9px;
+  	BACKGROUND-COLOR: gray;
+	color: white;
+	FONT-WEIGHT: bold;
+}
+.normalTextInTable
+{
+   COLOR: #ffff99;
+   FONT-WEIGHT: normal;
+   BACKGROUND-COLOR: #003300;
+   FONT-SIZE: 9pt
+}
+.mediumText
+{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 14px;
+}
+.smallText
+{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 11px;
+}
+.boldText
+{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+}
+.headerText
+{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 9px;
+	color: #000000;
+	font-weight: 400;
+}
+.headerText2
+{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 9px;
+	color: #ffffff;
+	font-weight: bold;
+}
+.titlePage
+{
+	color: red;
+	font-size: 15pt;
+	font-weight: bold;
+}
+.titleBox
+{
+	color: #cc66ff;
+	font-size: 12pt;	
+	font-weight: bold;
+}
+.warning
+{
+	color: red;
+	font-size: 12pt;	
+	font-weight: bold;
+}
+.rowEven
+{
+	color: #000000;
+	BACKGROUND-COLOR: #bb9999;
+	font: Verdana;
+	font-size: 9px;
+}
+.rowOdd
+{
+	color: #000000;
+	BACKGROUND-COLOR: #bbcc99;
+	font: Verdana;
+	font-size: 9px;
+}
+
+/* containers*/
+
+.container {
+	position: relative;
+}
+.content {
+	position: absolute; 
+	top: 350px; 
+	width: 100%;
+}
+.Centered_150 {
+	width: 150px;
+	margin:auto;
+}
+.Centered_200 {
+	width: 200px;
+	margin:auto;
+}
+.rtitle {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	font-size: 50px;
+	font-weight: 500;
+	color: #fff;
+}
+.rtitle a {
+	color: #fff;
+}
+
+.thumbnail {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    border-radius: 1.5em;
+    /*border: 1px solid #eee;*/
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+.img-rounded {
+	width: 100px;
+	border-radius: 50%;
+}
+.img-icon-rounded {
+	width: 30px;
+	border-radius: 5%;
+}
+.sign-text-name {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 18px;
+}
+.sign-text-bio {
+	font-family: 'Montserrat',sans-serif;
+	font-size: 12px;        
+	margin-top: 5px;
+}
+.sign-icons {
+	width: 150px;
+	margin: auto;
+}
+
+.Column {
+	display: table-cell;
+}
+.CellCentered {
+	width: 100px;
+	margin:auto;
+}
+.aKeywords{
+	position:absolute;
+	top:400px;
+	right:10px;
+	width:150px;
+	font-family: 'Montserrat',sans-serif;
+	font-size: 11px;        
+	background-color: transparent;
+	z-index: 1;
+}
+
+/* card */
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background-color: rgba(150, 150, 150, 0.6);
+	transition: 0.3s;
+	min-width: 150px;
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 10px;
+	margin-bottom: 25px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+}
+
+.cardText {
+	padding: 2px 10px 5px 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 10pt;
+}
+
+/* mobile phone device */
+
+@media screen and (max-device-width: 480px) 
+{
+	.mainBox
+	{
+		width: 90%;
+		/* Center horizontally*/
+		margin: 0 auto;
+		font-family: 'Montserrat',sans-serif;
+		margin-top: 10px;
+	}
+	.smallText
+	{
+		font-family: 'Montserrat',sans-serif;
+		font-size: 13px;
+	}
+	article {    
+		display: grid;    
+		grid-template-columns: 100%;
+		padding: 0.2in 0.2in;
+	}
+	.imgRounded {
+		display: block;
+		width: 50px;
+		height: 50px;
+		margin: 1em auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-border-radius: 1em;
+		-moz-border-radius: 1em;
+		border-radius: 1em;
+		/*border: 1px solid #eee;*/
+		box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	}
+	.mainArticle
+	{
+		width: 300px;
+		vertical-align: top;
+	}
+	a.linkButton {
+		display: block;
+		margin: 0.4em auto;
+		background-color: #d6d6d6;
+	}
+	.Centered {
+		width: 400px;
+		margin:auto;
+	}	
+	.Row {
+		display: block;
+		width: 100%; /*Optional*/
+		table-layout: auto; /*Optional*/
+		border-spacing: 10px; /*Optional*/
+	}
+	/* used in signature*/
+	.sign-container {
+		position: relative;
+		height: 300px;
+		width: 350px;
+		margin-left: 20px;
+	}
+	.sign-block {
+		position: absolute;
+		min-height: 100px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 250px;
+		background-color: rgba(200, 200, 200, 0.6);
+		border-radius: 10px; /* future proofing */
+		padding: 10px;
+		box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	}
+	.sign-text {
+		position: relative;
+		left: 110px;
+		top: -100px;
+		width: 235px;
+		text-align: justify;
+	}
+	.artImage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 300px;  
+	}
+	.footerDiv {
+		position: relative;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+/* tablet (iPad) device */
+
+@media screen and (min-device-width: 480px) and (max-device-width: 1024px) 
+{
+	.mainBox
+	{
+		width: 90%;
+		/* Center horizontally*/
+		margin: 0 auto;
+		font-family: 'Montserrat',sans-serif;
+		margin-top: 10px;
+	}
+	.imgRounded {
+		display: block;
+		width: 50px;
+		height: 50px;
+		margin: 1em auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-border-radius: 1em;
+		-moz-border-radius: 1em;
+		border-radius: 1em;
+		/*border: 1px solid #eee;*/
+		box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	}
+	.mainArticle
+	{
+		width: 450px;
+		vertical-align: top;
+	}
+	.mediumText
+	{
+		font-family: 'Montserrat',sans-serif;
+		font-size: 14px;
+	}
+	.artImage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 500px;  
+	}
+	/* used in signature*/
+	.sign-container {
+		position: relative;
+		height: 300px;
+		width: 525px;
+		margin-left: 20px;
+	}
+	.sign-block {
+		position: absolute;
+		min-height: 100px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 150px;
+		background-color: rgba(200, 200, 200, 0.6);
+		border-radius: 10px; /* future proofing */
+		padding: 10px;
+		box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	}
+	.sign-text {
+		position: relative;
+		left: 110px;
+		top: -100px;
+		width: 400px;
+		text-align: justify;
+	}
+	.sign-text-name {
+		font-family: 'Montserrat',sans-serif;
+		font-size: 18px;
+	}
+	.sign-text-bio {
+		font-family: 'Montserrat',sans-serif;
+		font-size: 12px;        
+		margin-top: 5px;
+	}
+	.Centered {
+		width: 400px;
+		margin:auto;
+	}	
+	.footerDiv {
+		position: relative;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+/* desktop device */
+
+@media only screen and (min-width: 1024px) 
+{
+	.mainBox
+	{
+		width: 700px;
+		/* Center horizontally*/
+		margin: 0 auto;
+		font-family: 'Montserrat',sans-serif;
+		margin-top: 10px;
+	}
+	article {    
+		display: grid;    
+		grid-template-columns: 1fr minmax(0, 10in) 1fr;
+		padding: 0.5in 0.5in;
+	}
+	article * { 
+		grid-column: 2 / 3;
+	}
+	.imgRounded {
+		display: block;
+		width: 200px;
+		height: 200px;
+		margin: 1em auto;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		-webkit-border-radius: 1.5em;
+		-moz-border-radius: 1.5em;
+		border-radius: 1.5em;
+		/*border: 1px solid #eee;*/
+		box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	}
+	.mainArticle
+	{
+		width: 500px;
+		vertical-align: top;
+	}
+	.Centered {
+		width: 550px;
+		margin:auto;
+	}	
+	.Row {
+		display: table;
+		width: 100%; 
+		table-layout: fixed; 
+		border-spacing: 10px; 
+	}
+	/* used in signature*/
+	.sign-container {
+		position: relative;
+		height: 200px;
+		width: 650px;
+		margin: auto;
+	}
+	.sign-block {
+		position: absolute;
+		min-height: 100px;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 150px;
+		background-color: rgba(200, 200, 200, 0.6);
+		border-radius: 10px; /* future proofing */
+		padding: 10px;
+		box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+	}
+	.sign-text {
+		position: relative;
+		left: 110px;
+		top: -100px;
+		width: 500px;
+	}
+	.artImage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 400px;  
+	}
+	.footerDiv {
+		position: relative;
+		width: 600px;
+		margin: auto;
+	}
+}

@@ -1,0 +1,135 @@
+
+.xTable {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+.xCell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+    }
+.xCell-left {
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+    }
+.xCell-right {
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none;
+}
+.artTable {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 3em 0;
+    padding: 0;
+}
+.artCell {
+    box-sizing: border-box;
+    flex-grow: 1;
+    width: 100%;
+    padding: 1em 1em;
+    overflow: hidden;
+    list-style: none;
+}
+
+/* mobile */
+
+@media screen and (max-device-width: 480px) 
+{
+    .xTable-cols > .xCell-left {
+        width: 30%;
+    }
+    .xTable-cols > .xCell-right {
+        width: 70%;
+    }
+    .artTable-cols > .artCell {
+        width: 70%;
+    }
+    /* for keyIndex.php*/
+    .keyTable-cols > .artCell {
+        width: 50%;
+        margin: 3px;
+        background: rgba(145, 165, 186, 0.2);
+        border-radius: 10px;        
+    }    
+}
+
+/* mobile tablet device */
+
+@media screen and (min-device-width: 480px) and (max-device-width: 1024px) 
+{
+    .xTable-cols > .xCell-left {
+        width: 30%;
+    }
+    .xTable-cols > .xCell-right {
+        width: 70%;
+    }
+    .artTable {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .artTable-cols > .artCell {
+        width: 50%;
+    }
+    /* for keyIndex.php*/
+    .keyTable-cols > .artCell {
+        width: 20%;
+        /*border: solid 3px white;*/
+        margin: 3px;
+        background: rgba(145, 165, 186, 0.2);
+        border-radius: 10px;        
+    }    
+}
+
+/* desktop */
+
+@media only screen and (min-width: 1024px) 
+{
+    .xTable {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0;
+        width: 80%;
+    }
+    .xTable-cols > .xCell-left {
+        width: 15%;
+    }
+    .xTable-cols > .xCell-right {
+        width: 35%;
+    }
+    .artTable {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+    }
+    .artTable-cols > .artCell {
+            width: 30%;
+    }
+    /* for keyIndex.php*/
+    .keyTable-cols > .artCell {
+        width: 20%;
+        /*border: solid 3px white;*/
+        margin: 3px;
+        background: rgba(145, 165, 186, 0.2);
+        border-radius: 10px;        
+    }    
+}
